@@ -1,1 +1,0 @@
-LangChain is an open-source framework that helps build powerful applications using large language models. It supports components like memory, tools, and retrievers.
