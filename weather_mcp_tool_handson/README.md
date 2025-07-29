@@ -12,18 +12,20 @@ An MCP (Model Context Protocol) server using the OpenWeatherMap API to provide:
 ## 🚀 Setup
 
 1. **Python 3.10+** is required.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Create Virtual Environment:
+
+2. Create Virtual Environment:
   ```bash
   python -m venv .venv or uv venv
   ```
-4. Activate Virtual Environment
+3. Activate Virtual Environment
   ```bash
-  .venv\Scripts\activate or uv sync
+  .venv\Scripts\activate 
   ```
+
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt  or  uv sync
+   ```
 5. **Get an API key** from [OpenWeatherMap](https://openweathermap.org/api).
 6. **Create a `.env` file** in the root folder:
    ```
